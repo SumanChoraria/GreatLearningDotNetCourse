@@ -1,0 +1,9 @@
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\obj\Debug\netcoreapp3.1\SumanChoraria_Sprint2.csprojAssemblyReference.cache
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\obj\Debug\netcoreapp3.1\SumanChoraria_Sprint2.AssemblyInfoInputs.cache
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\obj\Debug\netcoreapp3.1\SumanChoraria_Sprint2.AssemblyInfo.cs
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\obj\Debug\netcoreapp3.1\SumanChoraria_Sprint2.csproj.CoreCompileInputs.cache
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\bin\Debug\netcoreapp3.1\SumanChoraria_Sprint2.deps.json
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\bin\Debug\netcoreapp3.1\SumanChoraria_Sprint2.dll
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\bin\Debug\netcoreapp3.1\SumanChoraria_Sprint2.pdb
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\obj\Debug\netcoreapp3.1\SumanChoraria_Sprint2.dll
+C:\Users\Sudheer\source\repos\SumanChoraria_Sprint2\SumanChoraria_Sprint2\obj\Debug\netcoreapp3.1\SumanChoraria_Sprint2.pdb
