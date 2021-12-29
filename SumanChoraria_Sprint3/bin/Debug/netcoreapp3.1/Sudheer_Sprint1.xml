@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sudheer_Sprint1</name>
+    </assembly>
+    <members>
+        <member name="T:Sudheer_Sprint1.Controllers.AuthenticateController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.AuthenticateController.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.AuthenticateController.AuthenticateUser(Sudheer_Sprint1.Models.LoginModel)">
+            <summary>
+            
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.AuthenticateController.Login(Sudheer_Sprint1.Models.LoginModel)">
+            <summary>
+            Login
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.AuthenticateController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Sudheer_Sprint1.Controllers.BaseController`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.BaseController`1.#ctor(Sudheer_Sprint1.Repositories.IBaseRepository{`0})">
+            <summary>
+            public constructor
+            </summary>
+            <param name="baseRepository"></param>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.BaseController`1.Create(`0)">
+            <summary>
+            Create an entity by providing a unique id
+            </summary>
+            <remarks></remarks>
+            <param name="entity">Input entity</param>
+            <response code="200">Entity created</response>
+            <response code="404">Entity not created</response>
+            <response code="500">Oops! Can't create the entity right now</response>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.BaseController`1.Update(System.Int32,`0)">
+            <summary>
+            Update a entity using a unique id
+            </summary>
+            <remarks></remarks>
+            <param name="id"></param>
+            <param name="entity">The entity</param>
+            <response code="200">entity updated</response>
+            <response code="404">entitys not found</response>
+            <response code="500">Oops! Can't update the entity right now</response>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.BaseController`1.GetAll">
+            <summary>
+            Retrieves all entities
+            </summary>
+            <remarks></remarks>
+            <response code="200">Entities retrieved</response>
+            <response code="404">Entities not found</response>
+            <response code="500">Oops! Can't get your entities right now</response>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.BaseController`1.GetById(System.Int32)">
+            <summary>
+            Retrieves a specific entity by unique id
+            </summary>
+            <remarks></remarks>
+            <param name="id">The entity id</param>
+            <response code="200">entity retrieved</response>
+            <response code="404">entity not found</response>
+            <response code="500">Oops! Can't lookup your entity right now</response>
+        </member>
+        <member name="T:Sudheer_Sprint1.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{Sudheer_Sprint1.Controllers.HomeController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.HomeController.Privacy">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.HomeController.Error">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Sudheer_Sprint1.Controllers.LoginBaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Sudheer_Sprint1.Controllers.ProjectController">
+            <summary>
+            UserController
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.ProjectController.#ctor(Sudheer_Sprint1.Repositories.IProjectRepository)">
+            <summary>
+            
+            </summary>
+            <param name="projectRepository"></param>
+        </member>
+        <member name="T:Sudheer_Sprint1.Controllers.TaskController">
+            <summary>
+            TaskController
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.TaskController.#ctor(Sudheer_Sprint1.Repositories.ITaskRepository)">
+            <summary>
+            
+            </summary>
+            <param name="taskRepository"></param>
+        </member>
+        <member name="T:Sudheer_Sprint1.Controllers.UserController">
+            <summary>
+            UserController
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Controllers.UserController.#ctor(Sudheer_Sprint1.Repositories.IUserRepository)">
+            <summary>
+            Public constructor
+            </summary>
+            <param name="userRepository"></param>
+        </member>
+        <member name="T:Sudheer_Sprint1.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Sudheer_Sprint1.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Sudheer_Sprint1.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:Sudheer_Sprint1.TestStartup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.TestStartup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Sudheer_Sprint1.TestStartup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sudheer_Sprint1.TestStartup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Sudheer_Sprint1.TestStartup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

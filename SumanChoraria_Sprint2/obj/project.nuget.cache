@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74A/eKE/raQCLX7HgY67W5zkx2hbHh7PMxHQJAs22Y35r3nC5SqUEd8VqgQslX/cTTW6xPeGinDvdi8OGecTmA==",
+  "dgSpecHash": "K62X3KNUJPPRkomq7edEq/Zp/Ah4BiJwqc2iuU0H6XFAiaWsmPF6bnm7AZeM2mLJHKgo+3xAE2TuDEvgQL9QpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sudheer\\source\\repos\\SumanChoraria_Sprint2\\SumanChoraria_Sprint2\\SumanChoraria_Sprint2.csproj",
+  "projectFilePath": "C:\\Users\\Sudheer\\source\\repos\\SumanChoraria_Sprint2 - New\\GreatLearningDotNetCourse\\SumanChoraria_Sprint2\\SumanChoraria_Sprint2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sudheer\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.12\\microsoft.entityframeworkcore.5.0.12.nupkg.sha512",
     "C:\\Users\\Sudheer\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.12\\microsoft.entityframeworkcore.abstractions.5.0.12.nupkg.sha512",
@@ -17,7 +17,10 @@
     "C:\\Users\\Sudheer\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Sudheer\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Sudheer\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Sudheer\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\Sudheer\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Sudheer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Sudheer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Sudheer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
