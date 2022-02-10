@@ -14,7 +14,7 @@ namespace SumanChoraria_Sprint1.Controllers
     
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)]
+    //[Authorize(AuthenticationSchemes = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)]
     public class BaseController<T> : ControllerBase where T : BaseModel
     {
         private readonly IBaseRepository<T> _baseRepository;

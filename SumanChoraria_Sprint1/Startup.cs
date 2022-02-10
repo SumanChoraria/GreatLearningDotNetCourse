@@ -66,6 +66,8 @@ namespace SumanChoraria_Sprint1
 
                     }
                 });
+
+                services.AddCors();
             });
 
             services.AddAuthentication(option =>
@@ -99,6 +101,11 @@ namespace SumanChoraria_Sprint1
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            app.UseCors(options => options.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
